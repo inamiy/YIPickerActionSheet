@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFF603A15211CA70059768E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFF603915211CA70059768E /* UIKit.framework */; };
+		1FFF603C15211CA70059768E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFF603B15211CA70059768E /* Foundation.framework */; };
+		1FFF603E15211CA70059768E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFF603D15211CA70059768E /* CoreGraphics.framework */; };
+		1FFF604415211CA70059768E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF604215211CA70059768E /* InfoPlist.strings */; };
+		1FFF604615211CA70059768E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF604515211CA70059768E /* main.m */; };
+		1FFF604A15211CA70059768E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF604915211CA70059768E /* AppDelegate.m */; };
+		1FFF604D15211CA70059768E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF604B15211CA70059768E /* MainStoryboard_iPhone.storyboard */; };
+		1FFF605015211CA70059768E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF604E15211CA70059768E /* MainStoryboard_iPad.storyboard */; };
+		1FFF605315211CA70059768E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF605215211CA70059768E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FFF603515211CA70059768E /* YIPickerActionSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIPickerActionSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFF603915211CA70059768E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FFF603B15211CA70059768E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FFF603D15211CA70059768E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FFF604115211CA70059768E /* YIPickerActionSheetDemo-Info.plist */ = {isa = PBXFileReference; path = "YIPickerActionSheetDemo-Info.plist"; sourceTree = "<group>"; };
+		1FFF604315211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FFF604515211CA70059768E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FFF604715211CA70059768E /* YIPickerActionSheetDemo-Prefix.pch */ = {isa = PBXFileReference; path = "YIPickerActionSheetDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1FFF604815211CA70059768E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FFF604915211CA70059768E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FFF604C15211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1FFF604F15211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1FFF605115211CA70059768E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1FFF605215211CA70059768E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFF603215211CA70059768E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF603A15211CA70059768E /* UIKit.framework in Frameworks */,
+				1FFF603C15211CA70059768E /* Foundation.framework in Frameworks */,
+				1FFF603E15211CA70059768E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFF602A15211CA60059768E = {
+			isa = PBXGroup;
+			children = (
+				1FFF603F15211CA70059768E /* YIPickerActionSheetDemo */,
+				1FFF603815211CA70059768E /* Frameworks */,
+				1FFF603615211CA70059768E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFF603615211CA70059768E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF603515211CA70059768E /* YIPickerActionSheetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFF603815211CA70059768E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF603915211CA70059768E /* UIKit.framework */,
+				1FFF603B15211CA70059768E /* Foundation.framework */,
+				1FFF603D15211CA70059768E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FFF603F15211CA70059768E /* YIPickerActionSheetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF604815211CA70059768E /* AppDelegate.h */,
+				1FFF604915211CA70059768E /* AppDelegate.m */,
+				1FFF604B15211CA70059768E /* MainStoryboard_iPhone.storyboard */,
+				1FFF604E15211CA70059768E /* MainStoryboard_iPad.storyboard */,
+				1FFF605115211CA70059768E /* ViewController.h */,
+				1FFF605215211CA70059768E /* ViewController.m */,
+				1FFF604015211CA70059768E /* Supporting Files */,
+			);
+			path = YIPickerActionSheetDemo;
+			sourceTree = "<group>";
+		};
+		1FFF604015211CA70059768E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF604115211CA70059768E /* YIPickerActionSheetDemo-Info.plist */,
+				1FFF604215211CA70059768E /* InfoPlist.strings */,
+				1FFF604515211CA70059768E /* main.m */,
+				1FFF604715211CA70059768E /* YIPickerActionSheetDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFF603415211CA70059768E /* YIPickerActionSheetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFF605615211CA70059768E /* Build configuration list for PBXNativeTarget "YIPickerActionSheetDemo" */;
+			buildPhases = (
+				1FFF603115211CA70059768E /* Sources */,
+				1FFF603215211CA70059768E /* Frameworks */,
+				1FFF603315211CA70059768E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YIPickerActionSheetDemo;
+			productName = YIPickerActionSheetDemo;
+			productReference = 1FFF603515211CA70059768E /* YIPickerActionSheetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFF602C15211CA60059768E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Yasuhiro Inami";
+			};
+			buildConfigurationList = 1FFF602F15211CA60059768E /* Build configuration list for PBXProject "YIPickerActionSheetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FFF602A15211CA60059768E;
+			productRefGroup = 1FFF603615211CA70059768E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFF603415211CA70059768E /* YIPickerActionSheetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFF603315211CA70059768E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF604415211CA70059768E /* InfoPlist.strings in Resources */,
+				1FFF604D15211CA70059768E /* MainStoryboard_iPhone.storyboard in Resources */,
+				1FFF605015211CA70059768E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFF603115211CA70059768E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF604615211CA70059768E /* main.m in Sources */,
+				1FFF604A15211CA70059768E /* AppDelegate.m in Sources */,
+				1FFF605315211CA70059768E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FFF604215211CA70059768E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFF604315211CA70059768E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FFF604B15211CA70059768E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFF604C15211CA70059768E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1FFF604E15211CA70059768E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFF604F15211CA70059768E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FFF605415211CA70059768E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFF605515211CA70059768E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFF605715211CA70059768E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YIPickerActionSheetDemo/YIPickerActionSheetDemo-Prefix.pch";
+				INFOPLIST_FILE = "YIPickerActionSheetDemo/YIPickerActionSheetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FFF605815211CA70059768E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YIPickerActionSheetDemo/YIPickerActionSheetDemo-Prefix.pch";
+				INFOPLIST_FILE = "YIPickerActionSheetDemo/YIPickerActionSheetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFF602F15211CA60059768E /* Build configuration list for PBXProject "YIPickerActionSheetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF605415211CA70059768E /* Debug */,
+				1FFF605515211CA70059768E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFF605615211CA70059768E /* Build configuration list for PBXNativeTarget "YIPickerActionSheetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF605715211CA70059768E /* Debug */,
+				1FFF605815211CA70059768E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFF602C15211CA60059768E /* Project object */;
+}
