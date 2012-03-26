@@ -16,6 +16,7 @@
 		1FFF604D15211CA70059768E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF604B15211CA70059768E /* MainStoryboard_iPhone.storyboard */; };
 		1FFF605015211CA70059768E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF604E15211CA70059768E /* MainStoryboard_iPad.storyboard */; };
 		1FFF605315211CA70059768E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF605215211CA70059768E /* ViewController.m */; };
+		1FFF605C15211DC20059768E /* YIPickerActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF605B15211DC20059768E /* YIPickerActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		1FFF603915211CA70059768E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FFF603B15211CA70059768E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FFF603D15211CA70059768E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1FFF604115211CA70059768E /* YIPickerActionSheetDemo-Info.plist */ = {isa = PBXFileReference; path = "YIPickerActionSheetDemo-Info.plist"; sourceTree = "<group>"; };
+		1FFF604115211CA70059768E /* YIPickerActionSheetDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YIPickerActionSheetDemo-Info.plist"; sourceTree = "<group>"; };
 		1FFF604315211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FFF604515211CA70059768E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FFF604715211CA70059768E /* YIPickerActionSheetDemo-Prefix.pch */ = {isa = PBXFileReference; path = "YIPickerActionSheetDemo-Prefix.pch"; sourceTree = "<group>"; };
-		1FFF604815211CA70059768E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FFF604715211CA70059768E /* YIPickerActionSheetDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YIPickerActionSheetDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1FFF604815211CA70059768E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FFF604915211CA70059768E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1FFF604C15211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1FFF604F15211CA70059768E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1FFF605115211CA70059768E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1FFF605115211CA70059768E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FFF605215211CA70059768E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FFF605A15211DC20059768E /* YIPickerActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIPickerActionSheet.h; sourceTree = "<group>"; };
+		1FFF605B15211DC20059768E /* YIPickerActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIPickerActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		1FFF602A15211CA60059768E = {
 			isa = PBXGroup;
 			children = (
+				1FFF605915211CC60059768E /* YIPickerActionSheet */,
 				1FFF603F15211CA70059768E /* YIPickerActionSheetDemo */,
 				1FFF603815211CA70059768E /* Frameworks */,
 				1FFF603615211CA70059768E /* Products */,
@@ -99,6 +103,15 @@
 				1FFF604715211CA70059768E /* YIPickerActionSheetDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FFF605915211CC60059768E /* YIPickerActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF605A15211DC20059768E /* YIPickerActionSheet.h */,
+				1FFF605B15211DC20059768E /* YIPickerActionSheet.m */,
+			);
+			path = YIPickerActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,7 @@
 				1FFF604615211CA70059768E /* main.m in Sources */,
 				1FFF604A15211CA70059768E /* AppDelegate.m in Sources */,
 				1FFF605315211CA70059768E /* ViewController.m in Sources */,
+				1FFF605C15211DC20059768E /* YIPickerActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
