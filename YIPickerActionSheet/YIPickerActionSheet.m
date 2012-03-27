@@ -69,14 +69,33 @@
     return self;
 }
 
+- (void)_adjustFrame
+{
+    self.frame = CGRectMake(0, 
+                            self.superview.frame.size.height-(_pickerView.frame.size.height+44), 
+                            self.superview.frame.size.width, 
+                            _pickerView.frame.size.height);
+}
+
 - (void)showInView:(UIView *)view
 {
     [super showInView:view];
     
-    self.frame = CGRectMake(0, 
-                            view.frame.size.height-(_pickerView.frame.size.height+44), 
-                            view.frame.size.width, 
-                            _pickerView.frame.size.height);
+    [self _adjustFrame];
+}
+
+-(void)showFromToolbar:(UIToolbar *)view
+{
+    [super showFromToolbar:view];
+    
+    [self _adjustFrame];
+}
+
+- (void)showFromTabBar:(UITabBar *)view
+{
+    [super showFromTabBar:view];
+    
+    [self _adjustFrame];
 }
 
 #pragma mark 
