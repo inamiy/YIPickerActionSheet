@@ -62,7 +62,7 @@
         
         // actionSheet adjustment
         _pickerView.frame = CGRectMake(_pickerView.frame.origin.x,
-                                       _pickerView.frame.origin.y+44,
+                                       _pickerView.frame.origin.y+_pickerToolbar.frame.size.height,
                                        _pickerView.frame.size.width,
                                        _pickerView.frame.size.height);
     }
@@ -72,9 +72,9 @@
 - (void)_adjustFrame
 {
     self.frame = CGRectMake(0, 
-                            self.superview.frame.size.height-(_pickerView.frame.size.height+44), 
+                            self.superview.frame.size.height-(_pickerView.frame.size.height+_pickerToolbar.frame.size.height), 
                             self.superview.frame.size.width, 
-                            _pickerView.frame.size.height);
+                            _pickerView.frame.size.height+_pickerToolbar.frame.size.height);
 }
 
 - (void)showInView:(UIView *)view
