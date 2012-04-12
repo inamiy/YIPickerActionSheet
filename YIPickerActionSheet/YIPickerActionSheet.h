@@ -11,11 +11,7 @@
 
 @interface YIPickerActionSheet : UIActionSheet
 
-@property (weak, nonatomic) id <UIActionSheetDelegate, UIPickerViewDataSource, UIPickerViewDelegate> delegate;
-
 @property (strong, nonatomic, readonly) UIToolbar* pickerToolbar;
 @property (strong, nonatomic, readonly) UIPickerView* pickerView;
-
-- (id)initWithDelegate:(id)delegate;
 
 @end

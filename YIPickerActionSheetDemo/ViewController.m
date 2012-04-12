@@ -49,7 +49,10 @@
 
 - (IBAction)handleButton:(id)sender 
 {
-    YIPickerActionSheet* sheet = [[YIPickerActionSheet alloc] initWithDelegate:self];
+    YIPickerActionSheet* sheet = [[YIPickerActionSheet alloc] init];
+    sheet.delegate = self;
+    sheet.pickerView.dataSource = self;
+    sheet.pickerView.delegate = self;
     [sheet showInView:self.view];
 }
 

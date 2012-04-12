@@ -28,15 +28,13 @@
 
 @implementation YIPickerActionSheet
 
-@dynamic delegate;
 @synthesize pickerToolbar = _pickerToolbar;
 @synthesize pickerView = _pickerView;
 
-- (id)initWithDelegate:(id)delegate
+- (id)init
 {
     self = [super init];
     if (self) {
-        self.delegate = delegate;
         self.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
         
         // toolbar items
@@ -55,8 +53,8 @@
         
         // pickerView
         _pickerView = [[UIPickerView alloc] init];
-        _pickerView.dataSource = self.delegate;
-        _pickerView.delegate = self.delegate;
+        _pickerView.dataSource = nil;
+        _pickerView.delegate = nil;
         _pickerView.showsSelectionIndicator = YES;
         [self addSubview:_pickerView];
         
